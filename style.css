@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 459.5px;
+    height: 549.5px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+body h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+body::before {
+  content: "";
+  display: block;
+  background-image: url('images/banners/staarverticalbanner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(50px);
+}
+.staarlogo{
+    width: 250px;
+    height: 72.5px;
+    display: block;
+    margin: 0 auto;
+}
+.image-container {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
+.offline {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.offline .circle {
+    border-radius: 50%;
+    background-color: #1F1F1F;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.offline h1 {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+.offline-container {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+
+.offline-container img {
+    display: block;
+    margin: 0 auto;
+}
+.offlinebanner {
+    width: 442px;
+    height: 245.5px;
+    border-radius: 25px;
+}
+.joindiscord{
+    text-align: center;
+}
+.socials{
+    bottom: 30px;
+    background-color: #DFDFDF;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+.social{
+    width: 50px;
+    height: 50px;
+}
+.online {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.online .circle {
+    border-radius: 50%;
+    background-color: #FD29FB;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.online h1 {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+.online-container {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+
+.online-container img {
+    display: block;
+    margin: 0 auto;
+}
+.onlinebanner {
+    width: 442px;
+    height: 245.5px;
+    border-radius: 25px;
+}
+.streamname{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+.infos{
+    display: flex;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.info h1{
+    font-weight: 700;
+    font-size: 19px;
+}
+.info img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    filter: invert(0);
+}
+.navbar {
+    background-color: #DFDFDF;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 500px;
+    color: black;
+    height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.video-banner{
+    width: 420px;
+    height: 300px;
+    border-radius: 25px;
+}
+.videoname{
+    font-size: 25px;
+    margin-top: 7px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
